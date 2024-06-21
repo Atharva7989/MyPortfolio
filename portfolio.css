@@ -435,17 +435,23 @@ footer{
         }
         .meSkills{
             flex-direction: column;
+            width: 100%;
         }
         .skillsBody{
             height: auto;
+            width: auto;
+
         }
         .meBody{
             height: auto;
             margin-bottom: 20px;
+            width: auto;
+            padding: 0px;
         }
         
         .skillsBody li{
             padding-left: 8px;
+            padding-right: 8px;
             display:inline-flex;
             border: 2px solid white;
             border-radius: 40%;
