@@ -109,7 +109,7 @@ body{
         border: 1px solid white;
         padding: 20px;
         border-radius: 5px;
-        margin-right: 10px;
+        margin-right: 20px;
         /* background-color: #000000; */
         background-image: linear-gradient(144deg,#000000, #1d1d1d 50%,#020d0e);
         width: 50%;
@@ -162,9 +162,6 @@ body{
     
     box-shadow: rgba(0, 0, 0, 0.2) 0 15px 30px -5px;
     background-color: #000000;
-
-
-    position: relative; /* Add relative positioning */
 }
 
 #aboutme_Id {
@@ -182,14 +179,14 @@ body{
     padding: 20px;
 } */
 .parentAboutme{
-    /* border: 1px solid rgb(245, 239, 239);
-    width: 70%; */
+    
     
 }
 .aboutMe{
     display: flex;
     color: white;
     text-align: center;
+    /* padding: 40px; */
 }
 .Exprience{
     margin: 30px;
@@ -323,6 +320,7 @@ textarea {
     background-color: #000000;
     
   }
+  
   .card__content h3,p{
     text-align: center;
     margin-bottom: 4px;
@@ -388,30 +386,35 @@ footer{
     }
     .smallDetail p{
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 20px;
+        font-size: 30px;
         color: white;
-        padding-left: 100px;
+        padding-left: 90px;
         position: relative;
-        right: 100px;
+        right: 150px;
+        bottom: 80px;
         
     }
+    .nav{
+        width: fit-content;
+      }
     .imageDiv{
         margin-left: 50px;
         height: 100px;
         margin-top: 20px;
         position: relative;
-        right: 170px;
+        right: 250px;
     
     }
     
     .aboutMe{
-        flex-direction: column;
         width: auto;
-
+        flex-direction: column;
     }
     .projectParent{
         flex-direction: column;
-        
+        width: 310px;
+        margin-left:45px ;
+        padding: 0px;
       }
       .parentAchivements{
             flex-direction: column;
