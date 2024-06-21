@@ -385,12 +385,12 @@ footer{
         font-size: 13px;
     }
     .smallDetail p{
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 30px;
         color: white;
         padding-left: 90px;
         position: relative;
-        right: 150px;
+        right: 130px;
         bottom: 80px;
         
     }
@@ -402,7 +402,7 @@ footer{
         height: 100px;
         margin-top: 20px;
         position: relative;
-        right: 250px;
+        right: 220px;
     
     }
     
