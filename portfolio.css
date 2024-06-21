@@ -1,0 +1,455 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.parentNav{
+    display: flex;
+    float: right;
+    list-style-type: none;
+    gap: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    color: white;
+    
+
+    /* padding-top: 10px; */
+}
+.nav b{
+    font-size: 24px;
+    color: white;
+    padding-left: 5px;
+    
+}
+.nav{
+    height: 30px;
+    padding-top: 10px;
+    background: #212529;
+
+;
+    
+}
+.parentBody{
+    display: flex;
+}
+.smallDetail, .imageDiv {
+    flex: 1; /* Each element takes up equal space */
+    padding: 20px; /* Optional: Add padding for spacing */
+}
+.imageDiv{
+    margin-left: 100px;
+    height: 300px;
+    margin-top: 40px;
+
+}
+
+.smallDetail p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: white;
+    padding-left: 200px;
+    
+}
+#smallDetail{
+    font-size: 26px;
+}
+/* .imageDiv img{
+    border: 1px solid black;
+} */
+.paraSpan{
+    color: white;
+
+}
+body{
+    background: #212529;
+}
+.aboutMe{
+    /* padding: 30px; */
+    /* margin-right: 400px ;*/
+}
+/* cards */
+
+  
+
+  .first-content {
+    height: 100%;
+    width: 100%;
+    transition: all 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    border-radius: 15px;
+  }
+
+  
+  .second-content {
+    height: 0%;
+    width: 100%;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    transition: all 0.4s;
+    font-size: 0px;
+    transform: rotate(90deg) scale(-1);
+  }
+
+  /* ABOUT ME SKILLS*/
+  .meSkills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+/*     border: 1px solid white; */
+  }
+  .meBody{
+        border: 1px solid white;
+        padding: 20px;
+        border-radius: 5px;
+        margin-right: 10px;
+        /* background-color: #000000; */
+        background-image: linear-gradient(144deg,#000000, #1d1d1d 50%,#020d0e);
+        width: 50%;
+        height: 300px;
+
+
+  }
+  .skillsBody{
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(144deg,#000000, #1d1d1d 50%,#020d0e);
+    width: 50%;
+    height: 300px;
+
+}
+.skillsBody li{
+    padding-left: 8px;
+    display:inline-flex;
+    object-fit: contain;
+    border: 2px solid white;
+    border-radius: 40%;
+    margin: 5px ;
+    background-color: #000000;
+}
+  
+  
+.mywork{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+} 
+
+.mywork li{
+    margin: 5px;
+}
+
+/* about me  */
+.parentAboutme {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    width: fit-content;
+    margin:auto;
+    padding: 20px;
+    border-radius: 20px;
+    height: auto; /* Remove fixed height */
+    
+    box-shadow: rgba(0, 0, 0, 0.2) 0 15px 30px -5px;
+    background-color: #000000;
+
+
+    position: relative; /* Add relative positioning */
+}
+
+#aboutme_Id {
+    position: absolute;
+    bottom: 0; /* Position at the bottom */
+    left: 0; /* Align to the left */
+    right: 0; /* Align to the right */
+    color: white;
+    text-align: center;
+    padding:10px;
+}
+
+/* .aboutMe , .imageAboutme{
+    flex: 1;
+    padding: 20px;
+} */
+.parentAboutme{
+    /* border: 1px solid rgb(245, 239, 239);
+    width: 70%; */
+    
+}
+.aboutMe{
+    display: flex;
+    color: white;
+    text-align: center;
+}
+.Exprience{
+    margin: 30px;
+    /* padding-top: 10px; */
+    border: 1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 15px 30px -5px;
+    height: auto;
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    background-image: linear-gradient(144deg,#000000, #1d1d1d 50%,#020d0e);
+    
+}
+.Exprience p{
+    margin: 4px;
+}
+.education{
+    /* margin: 5px; */
+    /* padding-top: 10px; */
+    border: 1px solid white;
+    height: 190px;
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
+/* .parentContact{
+    display: flex;
+} */
+.parentContact {
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 400px; /* Adjust as needed */
+    border: 1px solid white;
+    margin: 0 auto; 
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contactForm {
+    margin-top: 20px; /* Add some spacing between heading and form */
+}
+
+/* Additional styling for labels and inputs */
+label {
+    color: white;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    margin-top: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+
+/* #ffed87; paper color*/ 
+
+  li { 
+    display: table-cell; 
+    position: relative; 
+    padding: 15px 0;
+  }
+  a {
+    color: #fff;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    /* letter-spacing: 0.15em; */
+    font-weight:6;
+    /* font-family: 'Times New Roman', Times, serif; */
+    display: inline-block;
+    /* padding: 10px 20px; */
+    position: relative;
+  }
+  a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  @media screen and (max-height: 300px) {
+      ul {
+          margin-top: 40px;
+      }
+  }
+  .card {
+    width: 190px;
+    height: 254px;
+    border-radius: 20px;
+  
+    padding: 5px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    margin: 18px;
+  }
+  
+  .card__content {
+    background: rgb(5, 6, 45);
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+    color: white;
+    flex-direction: column; /* Align children vertically */
+    /* padding: 5px; */
+  }
+  .projectParent{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    justify-content: center;
+    border: 1px solid whitesmoke;   
+    margin:auto;
+    border-radius: 20px;
+    background-color: #000000;
+    
+  }
+  .card__content h3,p{
+    text-align: center;
+    margin-bottom: 4px;
+  }
+  .card__content h3{
+    text-align: center;
+    padding-top: 8px;
+  }
+/* achivements */
+
+.parentAchivements{
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    background-color: #000000;
+    width: fit-content;
+    margin:auto;
+    border-radius: 8px;
+
+}
+
+.right,.left h,p,li,ul{
+    color: white;
+}
+.right,.left{
+    margin: 20px;
+    padding:40px;
+ 
+}
+.right{
+    width: 500px;
+    background: #212529;
+    border-radius: 8px;
+    height: auto;
+}
+.left img{
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    width: 200px;
+}
+
+/*Footer*/
+
+footer{
+    background-color: #000000;
+}
+.footerItems{
+    display: flex;
+    background: #212525;
+    text-align: center;
+    justify-content: center;
+}
+.footerItems li{
+    padding-left: 14px;
+}
+
+@media screen and (max-width:600px) {
+    h3{
+        font-size: 20px;
+    }
+    #smallDetail{
+        font-size: 13px;
+    }
+    .smallDetail p{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        color: white;
+        padding-left: 100px;
+        position: relative;
+        right: 100px;
+        
+    }
+    .imageDiv{
+        margin-left: 50px;
+        height: 100px;
+        margin-top: 20px;
+        position: relative;
+        right: 170px;
+    
+    }
+    
+    .aboutMe{
+        flex-direction: column;
+    }
+    .projectParent{
+        flex-direction: column;
+        
+      }
+      .parentAchivements{
+            flex-direction: column;
+            background:#212529 ;
+        }
+        .right,.left{
+            margin:0px;
+            padding:0px;
+            text-align: center;
+        }
+        .right{
+            width: 300px;
+            background: #212529;
+            border-radius: 8px;
+            height: auto;
+
+        }
+        .left img{
+            
+            width: 100px;
+            text-align: center;
+            justify-content: center;
+        }
+        .meSkills{
+            flex-direction: column;
+        }
+        .skillsBody{
+            height: auto;
+        }
+        .meBody{
+            height: auto;
+            margin-bottom: 20px;
+        }
+        
+        .skillsBody li{
+            padding-left: 8px;
+            display:inline-flex;
+            border: 2px solid white;
+            border-radius: 40%;
+            margin: 5px ;
+            background-color: #000000;
+        }
+}
