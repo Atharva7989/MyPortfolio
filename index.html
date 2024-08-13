@@ -9,19 +9,34 @@
     
 </head>
 
-<body>
 
-    <nav class="nav">
-        
-        <li style="float: left;margin-right: 10px;"><b>Portfolio</b></li>
-        <div class="parentNav">
-            <li><a href="https://www.linkedin.com/in/atharva-donkar/"><span style="color: #0e76a8 ;">linkedin</span></a></li>
-            <li><a href="https://drive.google.com/file/d/19urMvEPT7MbDQVma8JWbeiezzCneUCH6/view?usp=drivesdk">Resume</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+});
+
+    </script>
+    
+    <nav style="width: 100%;">
+        <div class="logo"><b><p style="font-family: 'Times New Roman', Times, serif;">Portfolio</p></b></div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
         </div>
+        <ul class="nav-links">
+            <li><b><a href="https://www.linkedin.com/in/atharva-donkar/"><span style="color: #0e76a8 ;">Linkedin</span></a></b></li>
+            <li><b><a href="https://drive.google.com/file/d/19urMvEPT7MbDQVma8JWbeiezzCneUCH6/view?usp=drivesdk">Resume</a></b></li>
+            <li><b><a href="#projects">Projects</a></b></li>
+            <li><b><a href="#contact">Contact</a></b></li>
+        </ul>
     </nav>
-</body>
+<!-- </body> -->
 <!-- <img src="profilePhoto.jpg" alt=""> -->
 <div class="parentBody">
     <div class="smallDetail">
@@ -60,7 +75,6 @@
             <li>AJAX</li>
             <li>Python</li>
             <li>c</li>
-            <li>Django</li>
             <li>NUMPY</li>
             <li>Pandas</li>
         </ul>
