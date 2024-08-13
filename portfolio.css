@@ -128,6 +128,7 @@ body{
 }
 .skillsBody li{
     padding-left: 8px;
+    padding-right: 8px;
     display:inline-flex;
     object-fit: contain;
     border: 2px solid white;
